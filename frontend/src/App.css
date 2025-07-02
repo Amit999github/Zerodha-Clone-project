@@ -1,0 +1,116 @@
+:root {
+  --bs-primary-dark: #0a58ca; /* darker version of #0d6efd */
+}
+/* stats component */
+p{
+  margin: 0;
+}
+.why-us-section h3 {
+  font-size: 1.25rem;
+}
+
+.why-us-section p{
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 5px 0 32px;
+}
+
+.nav-item{
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*  footer */
+.list-group-item i{
+  font-size: 20px;
+}
+
+.footer a{
+  line-height: 1.8rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-ul li{
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/* about page  */
+.team-leader img{
+  position: relative;
+  left: 9%;
+  padding-bottom:10px ;
+}
+.team-leader h5{
+  margin:0;
+}
+
+/* pricing page table */
+th,td{
+  padding: 12px 15px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+td span{
+  text-align: center;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+/* support page input */
+.support{
+  background-color:var(--bs-primary-dark);
+  opacity: 0.8 !important;
+}
+
+.inputBox input{
+  width: 91%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.inputBox{
+  border-radius: 2px;
+}
+.inputBox span{
+  font-size: 20px;
+  padding: 10px;
+}
+.support-head{
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 20px 0 30px;
+  font-weight: 400;
+  width: 85%;
+  color: white;
+}
+
+.related-links{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.support .container{
+  padding: 30px 0 80px;
+}
+
+::marker{
+  color: white;
+}
+
+.support .container .con-inp{
+  margin-left: 70px;
+  column-gap: 40px;
+}
+
+.support .container .con-inp ol{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
